@@ -1,4 +1,6 @@
 /*
+03/11/25
+Assignment: Practice: Stringing Characters Together - 2: Using .length
 
 Objective:
 Practice using the .length property by calculating the length of
@@ -20,11 +22,10 @@ let stringTwo = "JavaScript";
 let stringThree = "";
 
 // Your task: Assign the length of each string to the corresponding variable
-let lengthOne;   // Length of stringOne
-let lengthTwo;   // Length of stringTwo
-let lengthThree; // Length of stringThree
+let lengthOne = stringOne.length;   // Length of stringOne (15)
+let lengthTwo = stringTwo.length;   // Length of stringTwo (10)
+let lengthThree = stringThree.length; // Length of stringThree (0)
 
 // Your code here
 
-
-
+let lengthAll = lengthOne + lengthTwo + lengthThree; // (25)
